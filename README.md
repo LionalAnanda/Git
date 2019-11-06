@@ -1,8 +1,8 @@
-# Git Command that will be usefull
+# Git Command
 
 ## Remove a file from git history and rewrite the history
 
-File to be remove from the git a repository
+File to be removed from the git a repository
   dir1/dir2/sample_file.txt
 
 ```
@@ -13,4 +13,12 @@ git push origin --force --tags
 
 ```
 
+## Overwrite the current branch with master
+The following command will update the local branch and the remote branch to the latest master version.
+
+```
+git reset --hard master
+git push --force
+
+```
 
